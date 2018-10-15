@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="itemNum" value="4"/>
+  <test name="Test1(failed)">
+    <parameter name="itemNum" value="1"/>
+    <classes>
+      <class name="test.validateHomePage">
+        <methods>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="validateItemCountInCart" invocation-numbers="0"/>
+          <include name="validateItemInCart" invocation-numbers="0"/>
+          <include name="validateSearchButton" invocation-numbers="0"/>
+          <include name="validateLoginOnCheckout"/>
+          <include name="validateProductDetails" invocation-numbers="0"/>
+          <include name="validateCartPageIsDisplayed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.validateHomePage -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <parameter name="itemNum" value="2"/>
+    <classes>
+      <class name="test.validateHomePage">
+        <methods>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="validateItemCountInCart"/>
+          <include name="validateItemInCart"/>
+          <include name="validateSearchButton"/>
+          <include name="validateLoginOnCheckout"/>
+          <include name="validateProductDetails"/>
+          <include name="validateCartPageIsDisplayed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.validateHomePage -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test3(failed)">
+    <parameter name="itemNum" value="3"/>
+    <classes>
+      <class name="test.validateHomePage">
+        <methods>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="validateItemCountInCart"/>
+          <include name="validateItemInCart"/>
+          <include name="validateSearchButton"/>
+          <include name="validateLoginOnCheckout"/>
+          <include name="validateProductDetails"/>
+          <include name="validateCartPageIsDisplayed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.validateHomePage -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test4(failed)">
+    <parameter name="itemNum" value="4"/>
+    <classes>
+      <class name="test.validateHomePage">
+        <methods>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="driverSetUP"/>
+          <include name="urlSetUP"/>
+          <include name="validateItemCountInCart"/>
+          <include name="validateItemInCart"/>
+          <include name="validateSearchButton"/>
+          <include name="validateLoginOnCheckout"/>
+          <include name="validateProductDetails"/>
+          <include name="validateCartPageIsDisplayed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.validateHomePage -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

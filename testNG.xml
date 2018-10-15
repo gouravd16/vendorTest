@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Suite">
+
+<test name="Test1">
+<parameter name="itemNum" value="1"/>
+    <classes>
+      
+      <class name="test.validateHomePage">
+      <methods> 
+      <exclude name= "tearDown"/>
+      </methods>
+      </class>
+       </classes>
+</test>
+  
+ 
+<test name="Test2">
+ <parameter name="itemNum" value="2"/>
+    <classes>
+      
+      <class name="test.validateHomePage">
+      <methods> 
+      <exclude name= "driverSetUP"/>
+      <exclude name= "tearDown"/>
+      </methods>
+      </class>
+       </classes>
+</test>
+
+<test name="Test3">
+<parameter name="itemNum" value="3"/>
+    <classes>
+      
+       <class name="test.validateHomePage">
+      <methods> 
+      <exclude name= "driverSetUP"/>
+      <exclude name= "tearDown"/>
+      </methods>
+      </class>
+       </classes>
+</test> 
+
+<test name="Test4">
+<parameter name="itemNum" value="4"/>
+    <classes>
+      
+     <class name="test.validateHomePage">
+      <methods> 
+      <exclude name= "driverSetUP"/>
+      </methods>
+      </class>
+      
+       </classes>
+</test>
+ --> 
+</suite>

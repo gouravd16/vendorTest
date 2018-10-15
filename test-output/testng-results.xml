@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="24" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="271162" started-at="2018-10-14T22:40:16Z" finished-at="2018-10-14T22:44:47Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="73357" started-at="2018-10-14T22:40:16Z" finished-at="2018-10-14T22:41:29Z">
+      <class name="test.validateHomePage">
+        <test-method status="PASS" signature="driverSetUP(int)[pri:0, instance:test.validateHomePage@ae45eb6]" name="driverSetUP" is-config="true" duration-ms="1999" started-at="2018-10-14T18:40:16Z" finished-at="2018-10-14T18:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUP -->
+        <test-method status="PASS" signature="urlSetUP()[pri:0, instance:test.validateHomePage@ae45eb6]" name="urlSetUP" is-config="true" duration-ms="2902" started-at="2018-10-14T18:40:18Z" finished-at="2018-10-14T18:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlSetUP -->
+        <test-method status="PASS" signature="validateSearchButton(int)[pri:0, instance:test.validateHomePage@ae45eb6]" name="validateSearchButton" duration-ms="4879" started-at="2018-10-14T18:40:20Z" finished-at="2018-10-14T18:40:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchButton -->
+        <test-method status="PASS" signature="validateProductDetails(int)[pri:0, instance:test.validateHomePage@ae45eb6]" name="validateProductDetails" duration-ms="9397" started-at="2018-10-14T18:40:25Z" finished-at="2018-10-14T18:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductDetails -->
+        <test-method status="PASS" signature="validateItemCountInCart(int)[pri:0, instance:test.validateHomePage@ae45eb6]" name="validateItemCountInCart" duration-ms="1264" started-at="2018-10-14T18:40:35Z" finished-at="2018-10-14T18:40:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemCountInCart -->
+        <test-method status="PASS" signature="validateCartPageIsDisplayed()[pri:0, instance:test.validateHomePage@ae45eb6]" name="validateCartPageIsDisplayed" duration-ms="1782" started-at="2018-10-14T18:40:36Z" finished-at="2018-10-14T18:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartPageIsDisplayed -->
+        <test-method status="PASS" signature="validateItemInCart(int)[pri:0, instance:test.validateHomePage@ae45eb6]" name="validateItemInCart" duration-ms="50092" started-at="2018-10-14T18:40:38Z" finished-at="2018-10-14T18:41:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemInCart -->
+        <test-method status="PASS" signature="validateLoginOnCheckout()[pri:0, instance:test.validateHomePage@ae45eb6]" name="validateLoginOnCheckout" duration-ms="1010" started-at="2018-10-14T18:41:28Z" finished-at="2018-10-14T18:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginOnCheckout -->
+        <test-method status="PASS" signature="tearDown(int)[pri:0, instance:test.validateHomePage@ae45eb6]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-14T18:41:29Z" finished-at="2018-10-14T18:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.validateHomePage -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="66763" started-at="2018-10-14T22:41:29Z" finished-at="2018-10-14T22:42:36Z">
+      <class name="test.validateHomePage">
+        <test-method status="PASS" signature="driverSetUP(int)[pri:0, instance:test.validateHomePage@3abbfa04]" name="driverSetUP" is-config="true" duration-ms="1" started-at="2018-10-14T18:41:29Z" finished-at="2018-10-14T18:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUP -->
+        <test-method status="PASS" signature="urlSetUP()[pri:0, instance:test.validateHomePage@3abbfa04]" name="urlSetUP" is-config="true" duration-ms="2440" started-at="2018-10-14T18:41:29Z" finished-at="2018-10-14T18:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlSetUP -->
+        <test-method status="PASS" signature="validateSearchButton(int)[pri:0, instance:test.validateHomePage@3abbfa04]" name="validateSearchButton" duration-ms="2751" started-at="2018-10-14T18:41:32Z" finished-at="2018-10-14T18:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchButton -->
+        <test-method status="PASS" signature="validateProductDetails(int)[pri:0, instance:test.validateHomePage@3abbfa04]" name="validateProductDetails" duration-ms="7816" started-at="2018-10-14T18:41:34Z" finished-at="2018-10-14T18:41:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductDetails -->
+        <test-method status="PASS" signature="validateItemCountInCart(int)[pri:0, instance:test.validateHomePage@3abbfa04]" name="validateItemCountInCart" duration-ms="1269" started-at="2018-10-14T18:41:42Z" finished-at="2018-10-14T18:41:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemCountInCart -->
+        <test-method status="PASS" signature="validateCartPageIsDisplayed()[pri:0, instance:test.validateHomePage@3abbfa04]" name="validateCartPageIsDisplayed" duration-ms="1521" started-at="2018-10-14T18:41:43Z" finished-at="2018-10-14T18:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartPageIsDisplayed -->
+        <test-method status="PASS" signature="validateItemInCart(int)[pri:0, instance:test.validateHomePage@3abbfa04]" name="validateItemInCart" duration-ms="50167" started-at="2018-10-14T18:41:45Z" finished-at="2018-10-14T18:42:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemInCart -->
+        <test-method status="PASS" signature="validateLoginOnCheckout()[pri:0, instance:test.validateHomePage@3abbfa04]" name="validateLoginOnCheckout" duration-ms="790" started-at="2018-10-14T18:42:35Z" finished-at="2018-10-14T18:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginOnCheckout -->
+        <test-method status="PASS" signature="tearDown(int)[pri:0, instance:test.validateHomePage@3abbfa04]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-14T18:42:36Z" finished-at="2018-10-14T18:42:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.validateHomePage -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="67119" started-at="2018-10-14T22:42:36Z" finished-at="2018-10-14T22:43:43Z">
+      <class name="test.validateHomePage">
+        <test-method status="PASS" signature="driverSetUP(int)[pri:0, instance:test.validateHomePage@553f17c]" name="driverSetUP" is-config="true" duration-ms="1" started-at="2018-10-14T18:42:36Z" finished-at="2018-10-14T18:42:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUP -->
+        <test-method status="PASS" signature="urlSetUP()[pri:0, instance:test.validateHomePage@553f17c]" name="urlSetUP" is-config="true" duration-ms="1910" started-at="2018-10-14T18:42:36Z" finished-at="2018-10-14T18:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlSetUP -->
+        <test-method status="PASS" signature="validateSearchButton(int)[pri:0, instance:test.validateHomePage@553f17c]" name="validateSearchButton" duration-ms="3235" started-at="2018-10-14T18:42:38Z" finished-at="2018-10-14T18:42:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchButton -->
+        <test-method status="PASS" signature="validateProductDetails(int)[pri:0, instance:test.validateHomePage@553f17c]" name="validateProductDetails" duration-ms="7679" started-at="2018-10-14T18:42:41Z" finished-at="2018-10-14T18:42:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductDetails -->
+        <test-method status="PASS" signature="validateItemCountInCart(int)[pri:0, instance:test.validateHomePage@553f17c]" name="validateItemCountInCart" duration-ms="1372" started-at="2018-10-14T18:42:49Z" finished-at="2018-10-14T18:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemCountInCart -->
+        <test-method status="PASS" signature="validateCartPageIsDisplayed()[pri:0, instance:test.validateHomePage@553f17c]" name="validateCartPageIsDisplayed" duration-ms="1675" started-at="2018-10-14T18:42:50Z" finished-at="2018-10-14T18:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartPageIsDisplayed -->
+        <test-method status="PASS" signature="validateItemInCart(int)[pri:0, instance:test.validateHomePage@553f17c]" name="validateItemInCart" duration-ms="50208" started-at="2018-10-14T18:42:52Z" finished-at="2018-10-14T18:43:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemInCart -->
+        <test-method status="PASS" signature="validateLoginOnCheckout()[pri:0, instance:test.validateHomePage@553f17c]" name="validateLoginOnCheckout" duration-ms="1032" started-at="2018-10-14T18:43:42Z" finished-at="2018-10-14T18:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginOnCheckout -->
+        <test-method status="PASS" signature="tearDown(int)[pri:0, instance:test.validateHomePage@553f17c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-14T18:43:43Z" finished-at="2018-10-14T18:43:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.validateHomePage -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="63570" started-at="2018-10-14T22:43:43Z" finished-at="2018-10-14T22:44:47Z">
+      <class name="test.validateHomePage">
+        <test-method status="PASS" signature="driverSetUP(int)[pri:0, instance:test.validateHomePage@59ec2012]" name="driverSetUP" is-config="true" duration-ms="1" started-at="2018-10-14T18:43:43Z" finished-at="2018-10-14T18:43:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUP -->
+        <test-method status="PASS" signature="urlSetUP()[pri:0, instance:test.validateHomePage@59ec2012]" name="urlSetUP" is-config="true" duration-ms="1744" started-at="2018-10-14T18:43:43Z" finished-at="2018-10-14T18:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlSetUP -->
+        <test-method status="PASS" signature="validateSearchButton(int)[pri:0, instance:test.validateHomePage@59ec2012]" name="validateSearchButton" duration-ms="2299" started-at="2018-10-14T18:43:45Z" finished-at="2018-10-14T18:43:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchButton -->
+        <test-method status="PASS" signature="validateProductDetails(int)[pri:0, instance:test.validateHomePage@59ec2012]" name="validateProductDetails" duration-ms="5457" started-at="2018-10-14T18:43:47Z" finished-at="2018-10-14T18:43:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductDetails -->
+        <test-method status="PASS" signature="validateItemCountInCart(int)[pri:0, instance:test.validateHomePage@59ec2012]" name="validateItemCountInCart" duration-ms="1319" started-at="2018-10-14T18:43:53Z" finished-at="2018-10-14T18:43:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemCountInCart -->
+        <test-method status="PASS" signature="validateCartPageIsDisplayed()[pri:0, instance:test.validateHomePage@59ec2012]" name="validateCartPageIsDisplayed" duration-ms="1726" started-at="2018-10-14T18:43:54Z" finished-at="2018-10-14T18:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartPageIsDisplayed -->
+        <test-method status="PASS" signature="validateItemInCart(int)[pri:0, instance:test.validateHomePage@59ec2012]" name="validateItemInCart" duration-ms="50122" started-at="2018-10-14T18:43:56Z" finished-at="2018-10-14T18:44:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemInCart -->
+        <test-method status="PASS" signature="validateLoginOnCheckout()[pri:0, instance:test.validateHomePage@59ec2012]" name="validateLoginOnCheckout" duration-ms="736" started-at="2018-10-14T18:44:46Z" finished-at="2018-10-14T18:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginOnCheckout -->
+        <test-method status="PASS" signature="tearDown(int)[pri:0, instance:test.validateHomePage@59ec2012]" name="tearDown" is-config="true" duration-ms="159" started-at="2018-10-14T18:44:47Z" finished-at="2018-10-14T18:44:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.validateHomePage -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>
